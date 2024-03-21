@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="hurley from lost dribbles basketball animation">
+    <meta name="keywords" content="acates media, html, css, javascript, web development">
+    <meta name="author" content="Annemarie Cates">
+
+    <!-- Favicon -->
+    <link rel="icon" href="elements/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>hurley basketball | Acates Media</title>
+
+  </head>
+  <div class="court" alt=""></div> 
+  <body class="background panel orange">
+
+    <p class="bg-text text_shadows">Hurley</p>
+    <p class="bgtwo-text"><span style="font-size: 1.5em; padding-bottom: 2em;">Santa Rosa </span><br/>
+       Mental Health Institute<br/></p>
+
+    <p class="coords">4°08'15.0"N 162°03'42.0"E</p> 
+
+          <div class="container">
+            <div class="content-wrap">
+                <div>
+                  <img class="sec1 hurley" src="images/hurley-2.png" alt="" />
+                  <div class="sec2" id="ballWrapper">
+                    <div id="ball"><span id="shadow"></span></div>
+                    <div id="ballShadow"></div>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+  <script src="jquery.ripples-min.js"></script>
+
+  <script>
+    $(".court").ripples({
+  dropRadius: 0,
+  imageUrl: "images/court.png",
+});  
+</script>
+</html>
